@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Zap Anúncio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <img class="navbar-brand" src="./img/zap.svg" alt="" />
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Comprar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Alugar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Descobrir</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Financiamento</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Central de ajuda</a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn btn btn-sm">Anunciar</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn-login btn btn-sm"><i class="bi bi-person-square"></i>Entrar</button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section img e maps -->
+    <section>
+        <div class="container-fluid">
+            <div class="row align-items-center row-imovel">
+                <div class="col-sec-img col-6">
+                    <img id="img-imovel" src="./img/imovel-img2.png" alt="">
+                </div>
+                <div class=" col-sec-img col-6">
+                    <img id="img-maps" src="./img/1Rualiberdade.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-infos">
+        <div class="container-fluid sec-infos">
+            <h1 id="titulo-anuncio">Apartamento à venda com 40m², 1 quarto e sem vaga</h1>
+        </div>
+        <a href="https://www.google.com/maps/place/R.+S%C3%A3o+Paulo+-+Liberdade,+S%C3%A3o+Paulo+-+SP,+01513-000/@-23.5568285,-46.629797,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce590867ab6189:0x7caff8f87da73d15!8m2!3d-23.5568285!4d-46.629797"
+            target="_blank" id="localizacao-anuncio"><i class="bi bi-geo-alt"></i>Rua São Paulo, Liberdade, São
+            Paulo</a>
+
+        <h4>A PARTIR DE:</h4>
+        <h2>R$: 180.000</h2>
+            <div class="row align-items-center row-descricao">
+            <div class="col-6">
+                <h4 id="descricao-anuncio">Descrição do imóvel:</h4>
+                <p>O condomínio fica localizado em Rua São Paulo no bairro Liberdade em São Paulo.<br>
+                    É bem localizado, próximo de EMEF Duque de Caxias, CEI Quintal da Criança, Santa <br>
+                    Margiore, Museu do Tribunal de Justiça SP, Hospital Sancta Maggiore e Sesc Carmo.
+                </p>
+            </div>
+            <div id="div-btn" class="col-6">
+                <button id="btn-fav" class="btn-descricao btn btn-lg">
+                    <i class="bi bi-heart"></i>Favoritar
+                </button>
+                <button id="btn-share" class="btn-descricao btn btn-lg">
+                    <i class="bi bi-share"></i> Compartilhar
+                </button>
+            </div>
+        </div>
+    </section>
+
+</body>

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Zap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <img class="navbar-brand" src="./img/zap.svg" alt="" />
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Comprar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Alugar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Lançamentos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Descobrir</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Financiamento</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Central de ajuda</a>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn btn btn-sm">Anunciar</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn-login btn btn-sm">
+            <i class="bi bi-person-square"></i>Entrar
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container" style="display: flex; justify-content: space-between">
+      <div class="col-5">
+        <div class="filtro col-12">
+          <div class="row">
+            <div class="col-12">
+              <label for="">Tipo de transação</label>
+              <div class="" style="display: flex; justify-content: space-between">
+                <button type="button" class="btn btn-outline-secondary">
+                  Comprar
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  Alugar
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  Lançamentos
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 pt-3">
+              <label>Qual o tipo?</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <label>Onde?</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Digite um bairro, cidade ou rua."
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row" style="display: flex; flex-direction: column">
+            <label class="col-12">Preço</label>
+            <div class="col-6">
+              <label>Mínimo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <label>Máximo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Quartos</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Banheiros</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Vagas</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Área do imóvel</label>
+            <div class="col-6">
+              <label>Mínimo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <label>Máximo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%"
+              >Características do imóvel</label
+            >
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Aceita animais</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Ar-Condicionado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Armário embutido</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Armário embutido no quarto</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Segurança</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Circuito de segurança</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Condomínio fechado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Portão eletrônico</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Portaria 24h</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%"
+              >Lazer e esporte</label
+            >
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Academia</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Churrascaria</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Cinema</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Espaço gourmet</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Condomínio</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Acesso para deficientes</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Bicicletário</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Coworking</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Elevador</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Necessidades</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Metrô</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Farmácia</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Mercado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Hospital</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-7">
+        <div class="cardy" style="background-color: rgb(255, 255, 255)">
+          <div class="col-xl-5 col-lg-5 col-5 col-12 col-sm-12 card-image">
+            <img
+              class="card-img-top col-12"
+              style="padding: 0px"
+              alt="Imagem de capa do card"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtnzb72cXzvRxfg7GIpaNsOi3ZXkmnrjGTT8Wpp8ngMNR4iXG8_b7HBow5CtyFHvwGpOs&usqp=CAU"
+            />
+          </div>
+          <div
+            class="col-xl-7 col-lg-7 col-7 col-12 col-sm-12"
+            style="padding: 1px"
+          >
+            <div class="card-body" style="padding: 10px">
+              <p style="font-weight: bold; font-size: 28px">R$ 600.000,00</p>
+              <p style="font-size: 16px">
+                Descrição: Apartamento com 55m² - 2 dormitórios, 1 suíte, 1 vaga
+                de garagem, varanda com bandeira e persianas de enrolar
+                infraestrutura.
+              </p>
+              <button type="button" class="btn btn-outline telefonar">
+                Telefone
+              </button>
+              <button type="button" class="btn btn mensagem">Mensagem</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardy" style="background-color: rgb(255, 255, 255)">
+          <div class="col-xl-5 col-lg-5 col-5 col-12 col-sm-12 card-image">
+            <img
+              class="card-img-top col-12"
+              style="padding: 0px"
+              alt="Imagem de capa do card"
+              src="data:image/jpeg;base64,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"
+            />
+          </div>
+          <div
+            class="col-xl-7 col-lg-7 col-7 col-12 col-sm-12"
+            style="padding: 1px"
+          >
+            <div class="card-body" style="padding: 10px">
+              <p style="font-weight: bold; font-size: 28px">R$ 430.000,00</p>
+              <p style="font-size: 16px">
+                Descrição: Apartamento com 55m² - 2 dormitórios, 1 suíte, 1 vaga
+                de garagem, varanda com bandeira e persianas de enrolar
+                infraestrutura.
+              </p>
+              <button type="button" class="btn btn-outline telefonar">
+                Telefone
+              </button>
+              <button type="button" class="btn btn mensagem">Mensagem</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardy" style="background-color: rgb(255, 255, 255)">
+          <div class="col-xl-5 col-lg-5 col-5 col-12 col-sm-12 card-image">
+            <img
+              class="card-img-top col-12"
+              style="padding: 0px"
+              alt="Imagem de capa do card"
+              src="https://th.bing.com/th/id/OIP.P0qIw-s9wwbIqUxM8S2NjQHaE7?w=236&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div class="col-xl-7 col-lg-7 col-7 col-12 col-sm-12" style="padding: 1px">
+            <div class="card-body" style="padding: 10px">
+              <p style="font-weight: bold; font-size: 28px">R$ 280.000,00</p>
+              <p style="font-size: 16px">
+                Descrição: Apartamento com 55m² - 2 dormitórios, 1 suíte, 1 vaga
+                de garagem, varanda com bandeira e persianas de enrolar
+                infraestrutura.
+              </p>
+              <button type="button" class="btn btn-outline telefonar">
+                Telefone
+              </button>
+              <button type="button" class="btn btn mensagem">Mensagem</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardy" style="background-color: rgb(255, 255, 255)">
+          <div class="col-xl-5 col-lg-5 col-5 col-12 col-sm-12 card-image">
+            <img
+              class="card-img-top col-12"
+              style="padding: 0px"
+              alt="Imagem de capa do card"
+              src="https://th.bing.com/th/id/OIP.mfn27Iv7uam59ZZu3y365AHaEK?w=280&h=180&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div
+            class="col-xl-7 col-lg-7 col-7 col-12 col-sm-12"
+            style="padding: 1px"
+          >
+            <div class="card-body" style="padding: 10px">
+              <p style="font-weight: bold; font-size: 28px">R$ 290.000,00</p>
+              <p style="font-size: 16px">
+                Descrição: Apartamento com 55m² - 2 dormitórios, 1 suíte, 1 vaga
+                de garagem, varanda com bandeira e persianas de enrolar
+                infraestrutura.
+              </p>
+              <button type="button" class="btn btn-outline telefonar">
+                Telefone
+              </button>
+              <button type="button" class="btn btn mensagem">Mensagem</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardy" style="background-color: rgb(255, 255, 255)">
+          <div class="col-xl-5 col-lg-5 col-5 col-12 col-sm-12 card-image">
+            <img
+              class="card-img-top col-12"
+              style="padding: 0px"
+              alt="Imagem de capa do card"
+              src="https://th.bing.com/th/id/OIP.CrP4ntjCHYibM75sY1soPwHaFj?w=256&h=192&c=7&r=0&o=5&pid=1.7"
+            />
+          </div>
+          <div
+            class="col-xl-7 col-lg-7 col-7 col-12 col-sm-12"
+            style="padding: 1px"
+          >
+            <div class="card-body" style="padding: 10px">
+              <p style="font-weight: bold; font-size: 28px">R$ 290.000,00</p>
+              <p style="font-size: 16px">
+                Descrição: Apartamento com 55m² - 2 dormitórios, 1 suíte, 1 vaga
+                de garagem, varanda com bandeira e persianas de enrolar
+                infraestrutura.
+              </p>
+              <button type="button" class="btn btn-outline telefonar">
+                Telefone
+              </button>
+              <button type="button" class="btn btn mensagem">Mensagem</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

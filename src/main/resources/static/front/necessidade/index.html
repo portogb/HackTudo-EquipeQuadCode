@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Zap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <img class="navbar-brand" src="./img/img1Rualiberdade" alt="" />
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Comprar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Alugar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Lançamentos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Descobrir</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Financiamento</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Central de ajuda</a>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn btn btn-sm">Anunciar</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn-login btn btn-sm">
+            <i class="bi bi-person-square"></i>Entrar
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container" style="display: flex; justify-content: center;">
+      <div class="col-5">
+        <div class="filtro col-12" style="margin: 2%;">
+          <div class="row">
+            <div class="col-12">
+              <label for="">Tipo de transação</label>
+              <div class="" style="display: flex; justify-content: space-between">
+                <button type="button" class="btn btn-outline-secondary">
+                  Comprar
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  Alugar
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  Lançamentos
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 pt-3">
+              <label>Qual o tipo?</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <label>Onde?</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Digite um bairro, cidade ou rua."
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row" style="display: flex; flex-direction: column">
+            <label class="col-12">Preço</label>
+            <div class="col-6">
+              <label>Mínimo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <label>Máximo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Quartos</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Banheiros</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 caracteristicas-imovel">
+              <label class="col-6">Vagas</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Área do imóvel</label>
+            <div class="col-6">
+              <label>Mínimo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <label>Máximo</label>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%"
+              >Características do imóvel</label
+            >
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Aceita animais</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Ar-Condicionado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Armário embutido</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Armário embutido no quarto</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Segurança</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Circuito de segurança</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Condomínio fechado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Portão eletrônico</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Portaria 24h</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%"
+              >Lazer e esporte</label
+            >
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Academia</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Churrascaria</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Cinema</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Espaço gourmet</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Condomínio</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Acesso para deficientes</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Bicicletário</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Coworking</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Elevador</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <label class="col-12" style="padding-top: 4%">Necessidades</label>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Metrô</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Farmácia</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Mercado</p>
+            </div>
+            <div class="col-12 checkbox-input">
+              <div class="input mb-3">
+                <input
+                  type="checkbox"
+                  aria-label="Chebox para permitir input text"
+                />
+              </div>
+              <p>Hospital</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-7">
+        <img width="100%" height="30%" src="img/img1Rualiberdade.png" alt="" style="margin: 2%;">
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

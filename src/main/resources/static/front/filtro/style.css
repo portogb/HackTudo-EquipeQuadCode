@@ -1,0 +1,176 @@
+.navbar {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #787878;
+  }
+  
+  .nav-link:hover {
+    color: #6e0ad6;
+  }
+  
+  .nav-btn {
+    background-color: #6e0ad6;
+    color: white;
+    width: 100px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .nav-btn:hover {
+    color: white;
+    background-color: #703fa3;
+  }
+  
+  .nav-btn-login{
+    background-color: white;
+    color: black;
+    border: 0.2px solid black;
+    width: 100px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .nav-btn-login:hover {
+    border: 2px solid black;
+  }
+  
+  .bi {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+  }
+  
+  
+  /*******************************************************************************/
+  
+  .filtro {
+    background-color: #f5f6f7;
+    /* background-color: rgb(85, 85, 85); */
+  }
+  
+  input :hover {
+    border-color: blue;
+  }
+  
+  .caracteristicas-imovel {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .botoes-quantidade {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-select {
+    border-radius: 5px;
+    border-color: none;
+    padding: auto 2%;
+  }
+  
+  .button-select :hover {
+    border-radius: 5px;
+    border-color: pink;
+    background-color: black;
+    color: white;
+  }
+  
+  .amount__container .new-l-button--size-regular {
+    padding: 0;
+  }
+  
+  .amount__container .new-l-button {
+    min-width: 40px;
+    max-width: 40px;
+  }
+  
+  .new-l-button--size-regular {
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .new-l-button--appearance-select {
+    background-color: #fff;
+    border: 1px solid #cfd4dd;
+    color: #3c4453;
+  }
+  
+  .new-l-button {
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    outline-color: transparent;
+    outline-style: solid;
+    outline-width: 0;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .new-l-button,
+  .new-l-text--weight-bold {
+    font-weight: 700;
+  }
+  
+  button,
+  input,
+  select,
+  textarea {
+    border-radius: 10px;
+    line-height: inherit;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .checkbox-input {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  /*********************************************************************************/
+  
+  .cardy {
+    background-color: #ffffff;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5% 0;
+  }
+  
+  .card-image {
+    padding: 0;
+  }
+  
+  .mensagem {
+    background-color: #ff5e00;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+  
+  .telefonar {
+    color: #ff5e00;
+    border-color: none;
+    font-weight: bolder;
+  }
+  
+  .telefonar :hover {
+    border-color: #ff5e00;
+    font-weight: bolder;
+  }

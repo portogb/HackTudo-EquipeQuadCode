@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Zap Homepage</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <img class="navbar-brand" src="./img/zap.svg" alt="" />
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Comprar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Alugar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Descobrir</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Financiamento</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Central de ajuda</a>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn btn btn-sm">Anunciar</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-btn-login btn btn-sm"><i class="bi bi-person-square"></i>Entrar</button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Section input -->
+    <section>
+        <div class="container-fluid">
+            <div class="row align-items-start justify-content-between">
+                <div id="col-section" class="col align-self-start">
+                    <img id="img-sec" src="./img/NEW-HERO-ZAP.jpeg" alt="">
+                </div>
+                <div id="input-section" class="col-md align-items-start justify-content-between">
+                    <h2>Pronto pra descobrir mais de <b>6 <br>milhões</b> de imóveis?</h2>
+                    <h3>ZAP, pronto para toda mudança.</h3>
+
+                    <h4>O que você precisa?*</h4>
+                    <div class="" style="display: flex;">
+                        <button type="button" class="btn btn-sm btn-sec">Comprar</button>
+                        <button type="button" class="btn btn-sm btn-sec">Alugar</button>
+                        <button type="button" class="btn btn-sm btn-sec">Lançamentos</button>
+                    </div>
+
+                    <h4>Qual o tipo?*</h4>
+                    <div class="multi-selector">
+                        <div class="select-field">
+                            <input type="text" name="" placeholder="Todos os imovéis" id="" class="input-selector">
+                            <span class="down-arrow">&blacktriangledown;</span>
+                        </div>
+                        <!---------List of checkboxes and options----------->
+                        <div class="list">
+
+                            <label for="task1" class="task">
+                                <input type="checkbox" name="" id="task1">
+                                Apartamento
+                            </label>
+                            <label for="task2" class="task">
+                                <input type="checkbox" name="" id="task2">
+                                Studio
+                            </label>
+                            <label for="task3" class="task">
+                                <input type="checkbox" name="" id="task3">
+                                Kitnet
+                            </label>
+                            <label for="task4" class="task">
+                                <input type="checkbox" name="" id="task4">
+                                Casa
+                            </label>
+                            <label for="task5" class="task">
+                                <input type="checkbox" name="" id="task5">
+                                Casa de Condomínio
+                            </label>
+                            <label for="task6" class="task">
+                                <input type="checkbox" name="" id="task6">
+                                Casa de Vila
+                            </label>
+                            <label for="task7" class="task">
+                                <input type="checkbox" name="" id="task7">
+                                Cobertura
+                            </label>
+                            <label for="task8" class="task">
+                                <input type="checkbox" name="" id="task8">
+                                Flat
+                            </label>
+                            <label for="task9" class="task">
+                                <input type="checkbox" name="" id="task9">
+                                Loft
+                            </label>
+                            <label for="task10" class="task">
+                                <input type="checkbox" name="" id="task10">
+                                Terreno/Lote/Condomínio
+                            </label>
+                            <label for="task11" class="task">
+                                <input type="checkbox" name="" id="task11">
+                                Fazenda/Sítio/Chácara
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <h4>Onde?*</h4>
+                    <div class="multi-selector">
+                        <div class="select-field">
+                            <input type="text" name="" placeholder="Digite um Bairro, Cidade ou Rua" id="" class="input-selector">
+                        </div>
+                    </div>
+
+                    <h4>Quais são suas necessidades?</h4>
+                    <div class="multi-selector">
+                        <div class="select-field2">
+                            <input type="text" name="" placeholder="Pontos de interesse" id="" class="input-selector">
+                            <span class="down-arrow2">&blacktriangledown;</span>
+                        </div>
+                        <!---------List of checkboxes and options----------->
+                        <div class="list2">
+                            <label for="task12" class="task">
+                                <input type="checkbox" name="" id="task12">
+                                Mercado
+                            </label>
+                            <label for="task13" class="task">
+                                <input type="checkbox" name="" id="task13">
+                                Escola
+                            </label>
+                            <label for="task14" class="task">
+                                <input type="checkbox" name="" id="task14">
+                                Farmácia
+                            </label>
+                            <label for="task15" class="task">
+                                <input type="checkbox" name="" id="task15">
+                                Hospital
+                            </label>
+                            <label for="task16" class="task">
+                                <input type="checkbox" name="" id="task16">
+                                Academia
+                            </label>
+                            <label for="task17" class="task">
+                                <input type="checkbox" name="" id="task17">
+                                Restaurante
+                            </label>
+                            <label for="task18" class="task">
+                                <input type="checkbox" name="" id="task18">
+                                Boate
+                            </label>
+                            <label for="task19" class="task">
+                                <input type="checkbox" name="" id="task19">
+                                Transporte
+                        </div>
+                    </div>
+                    <button class="btn-search btn btn-sm"><i class="bi bi-search"></i>Buscar</button>
+                </div>
+                <script src="./script.js"></script>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>

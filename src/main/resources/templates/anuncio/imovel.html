@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" <xmlns:th="http:www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="panel-default">
+            <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Listagem de Alunos</h1>
+            </div>
+            <div class="panel-body">
+                <div class="table-responsible">
+                    <table class="table table-sm table-striped table-hover table-bordered">
+                        <label th:action="@{/anuncio/imovel}" th:object="${imoveis}" >nome</label>
+                        <h1 th:value="${imoveis.id}" th:text="${imoveis.nome}"></h1>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- outra forma com th:href -->
+        <!-- <a class="btn btn-sm btn-success" th:href ="@{aluno/cadastrarAluno}">CADASTRAR NOVO DOCUMENTO</a> -->
+        <a class="btn btn-sm btn-success" href="/aluno/cadastrarAluno">CADASTRAR NOVO ALUNO</a>
+    </div>
+
+</body>
+
+</html>
