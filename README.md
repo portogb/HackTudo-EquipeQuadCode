@@ -41,8 +41,8 @@ https://www.figma.com/file/qGEPClcSrhjKIEjh0KU1eN/Hackathon-OLX-2022?node-id=0%3
 https://youtu.be/kNs2O9Qdr84
 
 ## Documentação da feature, apresentações e personas 
-https://docs.google.com/document/d/11vdbS1L1CtnfGXNqAlMWINWuEetxjqeL5TOoGLpNkLI/edit?usp=sharing
-https://docs.google.com/presentation/d/1ZjUbkkjCBLw2IDLS5LaxZLdGTHdU8ElqX84U1sYtrKM/edit?usp=sharing
++ doc: https://docs.google.com/document/d/11vdbS1L1CtnfGXNqAlMWINWuEetxjqeL5TOoGLpNkLI/edit?usp=sharing
++ apresentações: https://docs.google.com/presentation/d/1ZjUbkkjCBLw2IDLS5LaxZLdGTHdU8ElqX84U1sYtrKM/edit?usp=sharing
 
 ## Paginas da feature
 + página home: http://localhost:8080/front/index.html
