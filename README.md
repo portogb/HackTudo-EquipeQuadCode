@@ -43,3 +43,8 @@ https://youtu.be/kNs2O9Qdr84
 ## Documentação da feature e personas 
 https://docs.google.com/document/d/11vdbS1L1CtnfGXNqAlMWINWuEetxjqeL5TOoGLpNkLI/edit?usp=sharing
 
+## Paginas da feature
++ página home: http://localhost:8080/front/index.html
++ página de exibição do imóvel: http://localhost:8080/front/imovel.html
++ página de listagem de imóveis: http://localhost:8080/front/filtro/index.html
++ página de localização do imóvel de acordo com os filtros: http://localhost:8080/front/necessidade/index.html
